@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="search-input" placeholder="Search for the Job">
+        <button onclick="searchResume()">Search</button>
+        <div id="resumeData"></div>
+        <div id="noResult" class="no-results hidden">
+            <img src="../Data/images.png" alt="Sad emoji">
+            <p class="no-result-text">No results found</p>
+        </div>
+    </div>
+    <script src="../JS/app.js"></script>
+</body>
+</html>

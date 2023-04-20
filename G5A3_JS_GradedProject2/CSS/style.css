@@ -1,0 +1,61 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    h2 {
+    text-align: center;
+    }
+    
+    input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+    button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+    
+    #resumeData {
+    margin-top: 20px;
+    }
+    
+    .resume-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+
+    .no-results {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 60px;
+        box-shadow: 0px 0px 5px gray;
+        padding: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .no-results img {
+        margin-right: 30px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .no-result-text {
+        margin: 0;
+        font-size: 40px;
+    }
