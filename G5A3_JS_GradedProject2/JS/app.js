@@ -20,6 +20,18 @@ function searchResume() {
             display.appendChild(resumeCard);
             console.log('main', resume);
             counter=counter+1;
+           } else {
+            const keyFilter = resume.skills.keywords.filter(key => key.toLowerCase().includes(searchValue));
+               if(keyFilter.length > 0) {
+                const resumeCard = document.createElement('div');
+            resumeCard.className = 'resume-card';
+            resumeCard.innerHTML = ` ${resume.basics.AppliedFor}
+            <p>Name: ${resume.basics.name}</p>
+            `;
+            display.appendChild(resumeCard);
+            console.log('main', resume);
+            counter=counter+1;
+               }
            }
         })
         if(counter == 0) {
